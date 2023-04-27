@@ -17,21 +17,20 @@ To use the application, follow the outlined steps:
 $ python3 -m venv venv
 ```
 
-3. You also need to start your mongodb instance either locally or on Docker as well as create a `.env` file. See the sample below for configurations.
+2. You also need to start your mongodb instance either locally or on Docker as well as create a `.env` file. See the sample below for configurations.
 
 ```console
 MONGO_URL=<url>
 ```
 
-
-4. Start the application:
+3. Start the application:
 
 ```console
 python -m uvicorn server:app --reload
 ```
 
 
-![FastAPI](https://github.com/PremKarira/CRUD_users/blob/main/1.png)
+![FastAPI](https://raw.githubusercontent.com/PremKarira/CRUD_users/main/1.png)
 
 
 
