@@ -26,7 +26,7 @@ MONGO_URL=<url>
 3. Start the application:
 
 ```console
-python -m uvicorn server:app --reload
+$ python -m uvicorn server:app --reload
 ```
 
 
